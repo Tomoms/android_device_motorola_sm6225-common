@@ -1,0 +1,3 @@
+allow vendor_ims_service vendor_hal_imscallinfo_hwservice:hwservice_manager find;
+allow vendor_ims_service vendor_hal_imsfactory_hwservice:hwservice_manager find;
+allow vendor_ims_service vendor_hal_imsrcsd_hwservice:hwservice_manager find;
