@@ -1,6 +1,7 @@
 GNSS_CFLAGS = [
     "-Werror",
     "-Wno-undefined-bool-conversion",
+    "-Wno-error=unused-parameter",
 ]
 
 /* Activate the following for debug purposes only,
