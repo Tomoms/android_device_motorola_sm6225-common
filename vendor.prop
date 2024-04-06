@@ -86,6 +86,7 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 
 # Camera
 camera.disable_zsl_mode=1
+persist.vendor.camera.privapp.list=com.motorola.camera3
 
 # Chipset
 ro.soc.manufacturer=QTI
