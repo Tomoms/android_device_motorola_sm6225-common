@@ -582,4 +582,14 @@
         </interface>
         <fqname>@1.0::IQspmhal/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>motorola.hardware.camera.imgtuner</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IImageTuning</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IImageTuning/default</fqname>
+    </hal>
 </manifest>
