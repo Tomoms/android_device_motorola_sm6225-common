@@ -4,6 +4,16 @@
      SPDX-License-Identifier: BSD-3-Clause
 -->
 <compatibility-matrix version="1.0" type="framework">
+        <hal format="hidl">
+        <name>motorola.hardware.camera.imgtuner</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IImageTuning</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IImageTuning/default</fqname>
+    </hal>
     <hal format="hidl" optional="true">
         <name>com.fingerprints.extension</name>
         <version>1.0</version>
